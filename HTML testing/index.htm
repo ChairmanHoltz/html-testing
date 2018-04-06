@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>My First HTML</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<script>
+function seizure(x) {
+    var pic;
+    if (x === 0) {
+        pic = "kirby.jpg"
+    } else {
+        pic = "seizure.gif"
+    }
+    document.getElementById("image").src = pic;
+}
+</script>
+    <img class="center" id="image" src="kirby.jpg" style="width:800px;height:600px;border:0">
+    <button type="button" onclick="seizure(0)" style="display:block;margin-left:auto;margin-right:auto">Off</button>
+    <button type="button" onclick="seizure(1)" style="display:block;margin-left:auto;margin-right:auto">Seizure</button>
+    <h1>TABLE!!!</h1>
+    <table style="width:100%">
+        <caption>21-23850</caption>
+        <tr>
+            <th>furby</th>
+            <th>boognish</th>
+            <th>wombat</th>
+        </tr>
+        <tr>
+            <td rowspan="2"><img src="boog2.jpg" alt="boog2" style="width:128;height:128;border:0"></td>
+            <td colspan="2">BOOGNISH</td>
+        </tr>
+        <tr>
+            <td>a;lsdj</td>
+        </tr>
+    </table>
+    <a href="#hd3">Go to last paragraph</a>
+    <h1 title="wombat">My First Heading</h1>
+        <p>My <b>First</b> Paragraph.</p>
+	    <pre> 
+         asd;lfjakljdskj
+ as;ldkj
+  
+          as;dlkfja;kls
+            </pre>
+        <h2 style="font-family:verdana;">Heading 2</h2>
+            <p>Paragraph 2a;lskdfj;lasjd;fklja;</p>
+            <img src="f.gif" class="center" alt="furby gif" style="width:320px;height:240px;border:20px solid red;">
+        <h3>Heading 3</h3>
+            <p>paragraph3;lkjgQ</p>
+            <img src="wombat.jpg" alt="wombat" class="center" style="width:520px;height:439px;border:0" title="WOMBAT" usemap="#wommap">
+                <map name="wommap">
+                    <area shape="rect" coords="20,20,70,70" alt="wom" href="http://www.ween.com">
+                </map>
+                <ul style="text-align:center">
+                    <li>furby</li>
+                    <li>boognish</li>
+                </ul>
+        <h1 id="hd3" style="font-size:600%;"><i>asdsdlj</i></h1>
+            <p style="text-align:center;">furby</p>
+            <hr>
+            <a href="http://www.ween.com">
+                <img src="boog.jpg" alt="Boognish" style="width:300px;height:300px;border:0; title="Boognish">
+            </a>
+            <hr>
+            <a href="http://www.ween.com">
+                <button>Boognish</button>
+            </a>
+            <hr>
+            <a href="https://www.w3schools.com">This is a link</a>
+            <hr>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+﻿body {
+    background-color:blue;
+    background-image:url(clouds.gif);
+}
+table, th, td {
+    border:1px solid black;
+    border-collapse:collapse;
+}
+th, td {
+    padding:20px;
+    text-align:center;
+}
+h1 {
+    color:red;
+    text-align:center;
+}
+h2 {
+    color:rgba(100,100,100,0.2);
+    text-align:center;
+}
+h3 {
+    text-align:center;
+}
+p {
+    color:orange;
+    text-align:center;
+}
+pre {
+    text-align:center;
+}
+button {
+    background-color:green;
+}
+a:link {
+    color:red;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:pink;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover {
+    color:pink;
+    background-color:transparent;
+    text-decoration:underline;
+}
+.center {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
